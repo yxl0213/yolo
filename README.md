@@ -1,6 +1,7 @@
-#Introduction
+# Introduction
+
 This document explains how to run YOLOV7, the data sets used, and visualizing the results through the tensorboard.
-#Introduction to datasets
+# Introduction to datasets
 There are three kinds of labels for single string tomatoes in greenhouse: red at mature stage, half at semi-mature stage and green at mature stage.
 
 ![2](https://user-images.githubusercontent.com/103248636/199666778-7bc52cae-8bfe-4677-9d32-1db06d683a97.jpg)
@@ -11,12 +12,12 @@ There are three kinds of labels for single string tomatoes in greenhouse: red at
 The directory of the dataset is in the '../mydata5'.
 
 The configuration file for the dataset is in the '../data/mydata5.yaml'.
-#Training Environment and results
-##Computer configuration
+# Training Environment and results
+## Computer configuration
 ***single GPU-RTX2060***
-##Training results
+## Training results
 The mAP value is up to 0.85, and there is no fitting phenomenon.
-#Training
+# Training
 *python train.py*
 ```
 --workers
@@ -42,7 +43,7 @@ data/hyp.scratch.p5.yaml
 G:/yolov7-main/runs/train/yolov75/weights/epoch_049.pt
 
 ```
-#Detecting
+# Detecting
 *python detect.py*
 ```
 --weights
