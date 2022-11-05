@@ -8,7 +8,7 @@ There are three kinds of labels for single string tomatoes in greenhouse: red at
 The directory of the dataset is in the '../mydata5'.
 
 The configuration file for the dataset is in the '../data/mydata5.yaml'.
-# Training Environment and results
+# Training environment and results
 ## Computer configuration
 ***single GPU-RTX2060***
 ## Training results
